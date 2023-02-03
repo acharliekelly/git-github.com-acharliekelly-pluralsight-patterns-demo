@@ -12,5 +12,7 @@ public class AbstractFactoryDemo {
         abstractFactory = CreditCardFactory.getCreditCardFactory(600);
         CreditCard card2 = abstractFactory.getCreditCard(CardType.GOLD);
         System.out.println(card2.getClass());
+
+        System.out.println("another message");
     }
 }
